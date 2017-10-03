@@ -10,6 +10,16 @@ namespace Loop_practice2
     {
         static void Main(string[] args)
         {
+            // Loops, one of the most efficient ways to
+            // code repetivie action
+
+            //for loops
+
+            for (int x = 1; x <= 10; x++)
+                Console.WriteLine(x);
+
+
+
         }
     }
 }
