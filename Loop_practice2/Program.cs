@@ -54,21 +54,35 @@ namespace Loop_practice2
 
 
             //string[] days = { "Monday", "Tuesday", "Wednesday" };
-            //for (int i = 0; i <=days.Length-1; i++)
+            //for (int i = 0; i <= days.Length - 1; i++)
             //{
             //    Console.WriteLine(days[i]);
             //}
 
-            string storyStart = "Once upon a time";
-            string[] storyWords = storyStart.Split();
-            Array.Reverse(storyWords);
-            
-            for (int i = 0; i <= storyWords.Length - 1; i++)
+            //string storyStart = "Once upon a time";
+            //string[] storyWords = storyStart.Split();
+            //Array.Reverse(storyWords);
+
+            //for (int i = 0; i < storyWords.Length; i++)
+            //{
+            //    Console.WriteLine(storyWords[i]);
+            //}
+
+
+            //Now doing foreach loop, which does some operation 
+            //on every item of an array
+
+            string[] months = { "Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec" };
+            foreach(string month in months)
             {
-                Console.WriteLine(storyWords[i]);
+                Console.WriteLine(month);
             }
 
 
+
         }
+
     }
+
 }
+
