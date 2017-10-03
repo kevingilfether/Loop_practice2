@@ -78,6 +78,13 @@ namespace Loop_practice2
                 Console.WriteLine(month);
             }
 
+            string[] musicians = { "Charles Mingus", "Boris", "Booker T. & The MGs", "Windhand", "Charlotte Dos Santos" };
+
+            foreach(string musician in musicians)
+            {
+                Console.WriteLine(musician);
+            }
+
 
 
         }
