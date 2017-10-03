@@ -72,19 +72,33 @@ namespace Loop_practice2
             //Now doing foreach loop, which does some operation 
             //on every item of an array
 
-            string[] months = { "Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec" };
-            foreach(string month in months)
+            //string[] months = { "Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec" };
+            //foreach(string month in months)
+            //{
+            //    Console.WriteLine(month);
+            //}
+
+            //string[] musicians = { "Charles Mingus", "Boris", "Booker T. & The MGs", "Windhand", "Charlotte Dos Santos" };
+
+            //foreach(string musician in musicians)
+            //{
+            //    Console.WriteLine(musician);
+            //}
+
+            // More practice with foreach loops
+
+
+            //string[] favoriteFoods = { "Pizza", "Sushi", "Taco Bell", "Good Polish food" };
+            //foreach(string food in favoriteFoods)
+            //{
+            //    Console.WriteLine(food);
+            //}
+
+            int[] luckyNumbers = { 3, 8, 191, 2093, 28 };
+            foreach(int number in luckyNumbers)
             {
-                Console.WriteLine(month);
+                Console.WriteLine("Your lucky number is: " + number);
             }
-
-            string[] musicians = { "Charles Mingus", "Boris", "Booker T. & The MGs", "Windhand", "Charlotte Dos Santos" };
-
-            foreach(string musician in musicians)
-            {
-                Console.WriteLine(musician);
-            }
-
 
 
         }
