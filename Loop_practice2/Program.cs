@@ -15,9 +15,58 @@ namespace Loop_practice2
 
             //for loops
 
-            for (int x = 1; x <= 10; x++)
-                Console.WriteLine(x);
+            //for (int i = 1; x <= 10; x++)
+            //    Console.WriteLine(x);
 
+
+            //for (int counter = 50; counter <= 100; counter++)
+            //{
+            //    Console.WriteLine(counter);
+            //}
+
+
+            //// Prints out each character of my name after splitting it in an array
+            //string aGreetings = "My name is Kevin.";
+            //string[] someWords = aGreetings.Split();
+
+            //for (int i = 0; i < someWords.Length - 1; i++)
+            //    Console.WriteLine(aGreetings[i]);
+
+            //setting up the loop
+            //for (int i = 1; i <= 10; i++)
+            ////do this
+            //{
+            //    Console.WriteLine(i);
+            //}
+
+            //for (int counter = 50; counter <= 100; counter++)
+            //{
+            //    Console.Write(counter+" ");
+            //}
+
+            //string greeting = "My name is Kevin";
+            //string[] words = greeting.Split();
+            //// same as
+            //// string [] words = { "My", "name", ... "Kevin"}
+
+            //for (int i = 0; i <= words.Length - 1; i++)
+            //    Console.WriteLine(words[i]);
+
+
+            //string[] days = { "Monday", "Tuesday", "Wednesday" };
+            //for (int i = 0; i <=days.Length-1; i++)
+            //{
+            //    Console.WriteLine(days[i]);
+            //}
+
+            string storyStart = "Once upon a time";
+            string[] storyWords = storyStart.Split();
+            Array.Reverse(storyWords);
+            
+            for (int i = 0; i <= storyWords.Length - 1; i++)
+            {
+                Console.WriteLine(storyWords[i]);
+            }
 
 
         }
