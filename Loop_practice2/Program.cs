@@ -149,17 +149,31 @@ namespace Loop_practice2
             //while (playAgain == "y");
 
             // GPA Calculation 
-            string answer;
-            do
+            //string answer;
+            //do
+            //{
+            //    Console.WriteLine("What class do you want to enter your grade for?");
+            //    Console.ReadLine();
+            //    Console.WriteLine("Enter your grade (no \"+\" or \"-\")");
+            //    Console.ReadLine();
+            //    Console.WriteLine("Do you have another class to enter?");
+            //    answer = Console.ReadLine().ToLower().Trim();
+            //}
+            //while (answer == "yes" || answer == "y");\
+
+
+            //Using Break and Continue to print out odd numbers
+            //Continue causes loop to stop and iterate.
+            for (int i=1; i < 20; i++)
             {
-                Console.WriteLine("What class do you want to enter your grade for?");
-                Console.ReadLine();
-                Console.WriteLine("Enter your grade (no \"+\" or \"-\")");
-                Console.ReadLine();
-                Console.WriteLine("Do you have another class to enter?");
-                answer = Console.ReadLine().ToLower().Trim();
+                if (i % 13 == 0)
+                {
+                    //continue;
+                    break;
+                }
+                Console.WriteLine(i);
             }
-            while (answer == "yes" || answer == "y");
+            Console.WriteLine("The loop has finished.");
 
 
         }
