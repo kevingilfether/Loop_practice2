@@ -179,14 +179,26 @@ namespace Loop_practice2
             //Loop Minutuae
             //Nested loops! Innermost loops run fastest
 
-            for (int i = 1; i <= 8; i++) 
+            //for (int i = 1; i <= 8; i++) 
+            //{
+            //    for (int j = 1; j <= 4; j++)
+            //    {
+            //        Console.Write(j); // columns
+            //    }
+            //    Console.WriteLine(); //next row
+            //}
+
+            int n = int.Parse(Console.ReadLine());
+            for (int row =1; row <=n; row ++)
             {
-                for (int j = 1; j <= 4; j++)
+                for (int col = 1; col <= row; col++)
                 {
-                    Console.Write(j); // columns
+                    Console.Write(col + " ");
                 }
-                Console.WriteLine(); //next row
+                Console.WriteLine();
             }
+
+
 
 
         }
