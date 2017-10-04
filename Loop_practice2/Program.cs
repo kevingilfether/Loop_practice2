@@ -94,10 +94,16 @@ namespace Loop_practice2
             //    Console.WriteLine(food);
             //}
 
-            int[] luckyNumbers = { 3, 8, 191, 2093, 28 };
-            foreach(int number in luckyNumbers)
+            //int[] luckyNumbers = { 3, 8, 191, 2093, 28 };
+            //foreach(int number in luckyNumbers)
+            //{
+            //    Console.WriteLine("Your lucky number is: " + number);
+            //}
+
+            //Counting down for loops
+            for (int i = 10; i > 0; i--)
             {
-                Console.WriteLine("Your lucky number is: " + number);
+                Console.WriteLine(i);
             }
 
 
