@@ -101,9 +101,39 @@ namespace Loop_practice2
             //}
 
             //Counting down for loops
-            for (int i = 10; i > 0; i--)
+            //for (int i = 10; i > 0; i--)
+            //{
+            //    Console.WriteLine(i);
+            //}
+
+
+            //while loop -- while something is true
+
+            //Console.WriteLine("Do you want to play a game? (YES/NO)");
+            //string playAgain = Console.ReadLine().ToUpper();
+
+            //while (playAgain == "YES")
+            //{
+            //    Console.WriteLine("It's a rematch");
+            //    Console.WriteLine("Do you want to play a game?");
+            //    playAgain = Console.ReadLine();
+            //}
+
+
+            //Hospital Example for jaded nurse
+            Console.WriteLine("Do you want to check the user in for their appointment? (Y/N)");
+            string answer = Console.ReadLine().ToLower();
+            while (answer != "y")
             {
-                Console.WriteLine(i);
+                Console.WriteLine("PATIENT CHECK-IN SYSTEM");
+                Console.WriteLine("What's the patient's full name?");
+                Console.ReadLine();
+                Console.WriteLine("What's the patient's six digit ID?");
+                int.Parse(Console.ReadLine());
+                Console.WriteLine("What time is the patient appt.?");
+                Console.ReadLine();
+                Console.WriteLine("\nDo you want to check another user in for their appointment? (Y/N)");
+                answer = Console.ReadLine().ToLower();
             }
 
 
