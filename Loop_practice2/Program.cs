@@ -139,17 +139,27 @@ namespace Loop_practice2
             //do-while loops
             //like an upside-down while loop, always runs at least once
 
-            string playAgain;
+            //string playAgain;
+            //do
+            //{
+            //    Console.WriteLine("Great Game!");
+            //    Console.WriteLine("Do you want to play again? (y/n)");
+            //    playAgain = Console.ReadLine().ToLower().Trim();
+            //}
+            //while (playAgain == "y");
+
+            // GPA Calculation 
+            string answer;
             do
             {
-                Console.WriteLine("Do you want to play the game? (y/n)");
-                Console.WriteLine("Great Game!");
-                Console.WriteLine("Do you want to play again? (y/n)");
-                playAgain = Console.ReadLine().ToLower().Trim();
+                Console.WriteLine("What class do you want to enter your grade for?");
+                Console.ReadLine();
+                Console.WriteLine("Enter your grade (no \"+\" or \"-\")");
+                Console.ReadLine();
+                Console.WriteLine("Do you have another class to enter?");
+                answer = Console.ReadLine().ToLower().Trim();
             }
-            while (playAgain == "y");
-
-            
+            while (answer == "yes" || answer == "y");
 
 
         }
