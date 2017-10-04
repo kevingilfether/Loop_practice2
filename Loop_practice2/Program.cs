@@ -164,16 +164,29 @@ namespace Loop_practice2
 
             //Using Break and Continue to print out odd numbers
             //Continue causes loop to stop and iterate.
-            for (int i=1; i < 20; i++)
+            //for (int i=1; i < 20; i++)
+            //{
+            //    if (i % 13 == 0)
+            //    {
+            //        //continue;
+            //        break;
+            //    }
+            //    Console.WriteLine(i);
+            //}
+            //Console.WriteLine("The loop has finished.");
+
+
+            //Loop Minutuae
+            //Nested loops! Innermost loops run fastest
+
+            for (int i = 1; i <= 8; i++) 
             {
-                if (i % 13 == 0)
+                for (int j = 1; j <= 4; j++)
                 {
-                    //continue;
-                    break;
+                    Console.Write(j); // columns
                 }
-                Console.WriteLine(i);
+                Console.WriteLine(); //next row
             }
-            Console.WriteLine("The loop has finished.");
 
 
         }
