@@ -121,20 +121,35 @@ namespace Loop_practice2
 
 
             //Hospital Example for jaded nurse
-            Console.WriteLine("Do you want to check the user in for their appointment? (Y/N)");
-            string answer = Console.ReadLine().ToLower();
-            while (answer != "y")
+            //Console.WriteLine("Do you want to check the user in for their appointment? (Y/N)");
+            //string answer = Console.ReadLine().ToLower().Trim;
+            //while (answer != "y")
+            //{
+            //    Console.WriteLine("PATIENT CHECK-IN SYSTEM");
+            //    Console.WriteLine("What's the patient's full name?");
+            //    Console.ReadLine();
+            //    Console.WriteLine("What's the patient's six digit ID?");
+            //    int.Parse(Console.ReadLine());
+            //    Console.WriteLine("What time is the patient appt.?");
+            //    Console.ReadLine();
+
+            //    Console.WriteLine("\nDo you want to check another user in for their appointment? (Y/N)");
+            //    answer = Console.ReadLine().ToLower();
+
+            //do-while loops
+            //like an upside-down while loop, always runs at least once
+
+            string playAgain;
+            do
             {
-                Console.WriteLine("PATIENT CHECK-IN SYSTEM");
-                Console.WriteLine("What's the patient's full name?");
-                Console.ReadLine();
-                Console.WriteLine("What's the patient's six digit ID?");
-                int.Parse(Console.ReadLine());
-                Console.WriteLine("What time is the patient appt.?");
-                Console.ReadLine();
-                Console.WriteLine("\nDo you want to check another user in for their appointment? (Y/N)");
-                answer = Console.ReadLine().ToLower();
+                Console.WriteLine("Do you want to play the game? (y/n)");
+                Console.WriteLine("Great Game!");
+                Console.WriteLine("Do you want to play again? (y/n)");
+                playAgain = Console.ReadLine().ToLower().Trim();
             }
+            while (playAgain == "y");
+
+            
 
 
         }
